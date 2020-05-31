@@ -88,7 +88,7 @@ button:hover {
 }
 
 .hero-row {
-    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949528/Ideal_construction/hero_bg_img_zhhzph.jpg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590953483/Ideal_construction/bg_extension_hhtqi5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,6 +158,7 @@ button:hover {
     min-height: 250px;
     max-height: 250px;
     width: 100%;
+    max-width: 350px;
 }
 
 .show-on-hover {
