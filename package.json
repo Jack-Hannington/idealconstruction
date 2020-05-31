@@ -1,0 +1,23 @@
+{
+    "name": "ideal_consturction",
+    "version": "1.0.0",
+    "description": "ideal construction website",
+    "main": "index.html",
+    "scripts": {
+        "start": "sergey",
+        "dev": "sergey --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/twobadge/idealconstruction.git"
+    },
+    "author": "Jack Hannington",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/twobadge/idealconstruction/issues"
+    },
+    "homepage": "https://github.com/twobadge/idealconstruction#readme",
+    "dependencies": {
+        "sergey": "0.0.13"
+    }
+}
