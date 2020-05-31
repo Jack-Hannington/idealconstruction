@@ -61,6 +61,11 @@ button {
     padding: 10px 25px;
     font-weight: bold;
     color: #3a3a3a;
+    border: 1px solid transparent;
+}
+
+button:hover {
+    opacity: 0.9;
 }
 
 .white-button {
@@ -83,7 +88,7 @@ button {
 }
 
 .hero-row {
-    background-image: url("/public/images/hero_bg_img.jpg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949528/Ideal_construction/hero_bg_img_zhhzph.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +103,7 @@ button {
 }
 
 .projects-header {
-    background-image: url("/public/images/LATEST\ \(6\).svg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949398/Ideal_construction/LATEST_6_x28f1j.svg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
@@ -194,7 +199,7 @@ button {
 }
 
 .testimonials-header {
-    background-image: url("/public/images/REVIEWS.svg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949335/Ideal_construction/REVIEWS_cl6dfq.svg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
@@ -214,7 +219,7 @@ button {
 }
 
 .carousel-content {
-    background-image: url("/public/images/striped_background.jpg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949312/Ideal_construction/striped_background_gfrl9d.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -222,7 +227,7 @@ button {
 }
 
 .carousel-header {
-    background-image: url("https://i.postimg.cc/FHFTjrkm/quote-marks-1.png");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949347/Ideal_construction/quote_marks_z2c4vt.svg");
     background-repeat: no-repeat;
     background-position: top right;
     padding-bottom: 15px;
@@ -232,7 +237,7 @@ button {
 /* Teams */
 
 .team-header {
-    background-image: url("/public/images/PEOPLE\ \(2\).svg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949349/Ideal_construction/PEOPLE_2_ontivx.svg");
     background-position: top-left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -284,7 +289,7 @@ button {
 }
 
 .social-header {
-    background-image: url("/public/images/SOCIAL.svg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949333/Ideal_construction/SOCIAL_p3qevz.svg");
     background-position: top-left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -297,7 +302,7 @@ button {
 
 .contact-header {
     /* padding: 20px; */
-    background-image: url("/public/images/CONTACT (1).svg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949411/Ideal_construction/CONTACT_1_qdohz4.svg");
     background-position: top-left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -331,7 +336,7 @@ button {
         font-weight: bold;
     }
     .nav-link:hover {
-        background-image: url("/public/images/striped_background.jpg");
+        background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949312/Ideal_construction/striped_background_gfrl9d.jpg");
         color: #E53E3E;
     }
     .nav-item,
@@ -433,7 +438,7 @@ footer {
 .navbar {
     background-color: #ffffff;
     /* height: 90px; */
-    background-image: url("/public/images/striped_background.jpg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949312/Ideal_construction/striped_background_gfrl9d.jpg");
 }
 
 .navbar-collapse {
@@ -455,7 +460,7 @@ footer {
 }
 
 .navbar-toggler-icon {
-    background-image: url("/public/images/staggered_hamburger_dark.svg");
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949330/Ideal_construction/staggered_hamburger_dark_dvfqal.svg");
 }
 
 @media (min-width: 768px) {
