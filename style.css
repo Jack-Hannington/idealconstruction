@@ -87,6 +87,9 @@ button:hover {
     color: #fff;
 }
 
+
+/* TOP BAR  */
+
 .hero-row {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590953483/Ideal_construction/bg_extension_hhtqi5.jpg");
     background-size: cover;
@@ -155,9 +158,9 @@ button:hover {
 }
 
 .project-image {
-    min-height: 250px;
     max-height: 250px;
     width: 100%;
+    max-width: 300px;
     max-width: 350px;
 }
 
@@ -228,7 +231,7 @@ button:hover {
 }
 
 .carousel-header {
-    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949347/Ideal_construction/quote_marks_z2c4vt.svg");
+    background-image: url("https://i.postimg.cc/FHFTjrkm/quote-marks-1.png");
     background-repeat: no-repeat;
     background-position: top right;
     padding-bottom: 15px;
@@ -351,7 +354,7 @@ button:hover {
     }
     .navbar-brand {
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
     #projectsFilterButton {
         float: right;
