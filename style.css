@@ -269,6 +269,11 @@ button:hover {
     padding: 10px;
 }
 
+.insta-card {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
 .team-card-image {
     width: 100%;
 }
