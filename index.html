@@ -486,16 +486,16 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 p-5 contact-form ">
                 <h2>Contact Form</h2>
-                <form>
-                    <label for="name ">Full name</label>
-                    <input type="text " name="name ">
-                    <label for="email ">Email</label>
-                    <input type="text " name="email ">
-                    <label for="contact-number ">Mobile number</label>
-                    <input type="number " name="contact-number ">
-                    <label for="message ">Message</label>
-                    <textarea></textarea>
-                    <button class="submit-button float-right " type="submit ">Submit</button>
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="name">Full name</label>
+                    <input type="text" name="name">
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                    <label for="contact-number">Mobile number</label>
+                    <input type="number" name="contact-number">
+                    <label for="message">Message</label>
+                    <textarea name="message"></textarea>
+                    <button class="submit-button float-right" type="submit">Submit</button>
                 </form>
             </div>
         </div>
