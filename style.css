@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    /* padding needed to not clash with navbar */
+    /* padding needed to not clash with fixed navbar */
     padding-top: 50px;
     font-family: Inter, Sans-Serif;
     color: #1f2f50;
@@ -19,7 +19,7 @@ a {
 }
 
 
-/* alignment - don't edit */
+/* row alignment - don't edit */
 
 .row {
     padding-left: 80px;
@@ -49,18 +49,15 @@ h5 {
     font-size: 14px;
 }
 
-.light {
-    color: #fff;
-    margin-bottom: 0px;
-    line-height: 40px;
-}
+
+/* Buttons */
 
 button {
-    border-radius: 4px;
+    border-radius: 2px;
     border: none;
-    padding: 10px 25px;
+    padding: 5px 20px 5px 20px;
     font-weight: bold;
-    color: #3a3a3a;
+    color: #3c4b5f;
     border: 1px solid transparent;
 }
 
@@ -77,6 +74,12 @@ button:hover {
     color: #E53E3E;
 }
 
+.light {
+    color: #fff;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
 .red-button {
     background-color: #E53E3E;
     color: #ffffff;
@@ -86,9 +89,6 @@ button:hover {
     background-color: #2B2B2B;
     color: #fff;
 }
-
-
-/* TOP BAR  */
 
 .hero-row {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590953483/Ideal_construction/bg_extension_hhtqi5.jpg");
@@ -101,9 +101,24 @@ button:hover {
     z-index: 1;
 }
 
+
+/* Services */
+
+.services-card {
+    padding: 20px 20px 20px 20px;
+}
+
+.services-row {
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
 .icon {
     width: 70px;
 }
+
+
+/* Projects */
 
 .projects-header {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949398/Ideal_construction/LATEST_6_x28f1j.svg");
@@ -150,9 +165,6 @@ button:hover {
     color: #E53E3E;
 }
 
-
-/* Projects images - bit of a hack using a background-image but it works for now */
-
 .project-images {
     margin-top: 20px;
 }
@@ -181,18 +193,6 @@ button:hover {
 .project-images:hover>.show-on-hover {
     opacity: 1;
     background-color: #fff;
-}
-
-
-/* Services */
-
-.services-card {
-    padding: 20px 20px 20px 20px;
-}
-
-.services-row {
-    margin-top: 80px;
-    margin-bottom: 15px;
 }
 
 
@@ -260,7 +260,7 @@ button:hover {
 }
 
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for Chrome, Safari and Opera - still shows on edge. */
 
 .scrolling-wrapper-flexbox::-webkit-scrollbar {
     display: none;
@@ -268,11 +268,6 @@ button:hover {
 
 .team-card {
     width: 300px;
-    flex: 0 0 auto;
-    padding: 10px;
-}
-
-.insta-card {
     flex: 0 0 auto;
     padding: 10px;
 }
@@ -306,11 +301,15 @@ button:hover {
     padding-top: 40px;
 }
 
+.insta-card {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
 
 /* Contact */
 
 .contact-header {
-    /* padding: 20px; */
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949411/Ideal_construction/CONTACT_1_qdohz4.svg");
     background-position: top-left;
     background-repeat: no-repeat;
@@ -319,6 +318,53 @@ button:hover {
     margin-bottom: 30px;
     padding-top: 20px;
 }
+
+
+/* form styles */
+
+label {
+    margin: 10px 0px 3px 0px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+}
+
+.submit-button {
+    margin-top: 20px;
+    background-color: #EFEFEF;
+    border: 1px solid #ededed;
+}
+
+.contact-details {
+    background-color: #f8fafb;
+}
+
+.contact-form {
+    border: 1px solid #ededed;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f8fafb;
+}
+
+.footer-row {
+    margin-top: 60px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    border-top: 1px solid #ededed;
+}
+
+
+/* Media queries */
 
 @media only screen and (max-width: 768px) {
     .row {
@@ -398,50 +444,6 @@ button:hover {
 }
 
 
-/* form styles */
-
-label {
-    margin: 10px 0px 3px 0px;
-}
-
-input,
-textarea {
-    display: block;
-    width: 100%;
-    padding: 5px;
-    border-radius: 4px;
-    border: 1px solid #ededed;
-}
-
-.submit-button {
-    margin-top: 20px;
-    background-color: #EFEFEF;
-    border: 1px solid #ededed;
-}
-
-.contact-details {
-    background-color: #f8fafb;
-}
-
-.contact-form {
-    border: 1px solid #ededed;
-}
-
-
-/* Footer */
-
-footer {
-    background-color: #f8fafb;
-}
-
-.footer-row {
-    margin-top: 60px;
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    border-top: 1px solid #ededed;
-}
-
-
 /* Nav styles  */
 
 .navbar {
@@ -472,14 +474,12 @@ footer {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949330/Ideal_construction/staggered_hamburger_dark_dvfqal.svg");
 }
 
-@media (min-width: 768px) {
-    body {
-        padding-top: 0;
-    }
-}
+
+/* for the fixed width left nav */
 
 @media (min-width: 768px) {
     body {
+        padding-top: 0;
         margin-left: 232px;
     }
 }
