@@ -90,6 +90,10 @@ button:hover {
     color: #fff;
 }
 
+.hide {
+    display: none;
+}
+
 
 /* top bar */
 
