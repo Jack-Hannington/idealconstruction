@@ -90,7 +90,8 @@ button:hover {
     color: #fff;
 }
 
-.hide {
+
+.honeypot {
     display: none;
 }
 
@@ -571,6 +572,6 @@ footer {
 
 @media (max-width:768px) {
     .hide {
-        display: none !important;
+        display: none;
     }
 }

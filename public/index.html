@@ -83,7 +83,7 @@
         <div id="services-section" class="row services-row">
             <div class="col-lg-4 col-md-6 col-sm-12 services-card">
                 <h5>EXPLORE OUR SERVICES</h5>
-                <h3>Full building solutions.</h3>
+                <h2>Full building solutions.</h2>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 services-card">
                 <img class="icon" aria-hidden="true" src="https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949400/Ideal_construction/pen_ruler_outline_icon_me79jm.svg">
@@ -445,14 +445,14 @@
                 <h2 id="getintouch">Contact Form</h2>
                 <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                     <label for="name">Full name</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" required>
                     <label for="email">Email</label>
-                    <input type="text" name="email">
-                    <label for="contact-number">Mobile number</label>
+                    <input type="email" name="email" required>
+                    <label for="contact-number" >Contact number</label>
                     <input type="number" name="contact-number">
                     <label for="message">Message</label>
                     <textarea name="message"></textarea>
-                    <label class="hide">Don’t fill this out if you're human: <input  class="hide" name="bot-field" /></label>
+                    <label class="honeypot">Don’t fill this out if you're human: <input  class="hide" name="bot-field" /></label>
                     <button class="submit-button float-right" type="submit">Submit</button>
                 </form>
             </div>
