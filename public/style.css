@@ -179,9 +179,9 @@ button:hover {
 
 .inline-links {
     margin-right: 0px;
-    color: #27377e;
+    color: #4f4f4f;
     background-color: transparent;
-    font-weight: 600;
+    font-weight: 300;
     padding: 5px;
     border-radius: 0px;
 }
