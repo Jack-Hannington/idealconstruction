@@ -186,6 +186,14 @@ button:hover {
     border-radius: 0px;
 }
 
+.inline-links:focus {
+    outline:none;
+}
+
+.inline-links:active {
+    color:#E53E3E;
+}
+
 .inline-links:hover {
     text-decoration: none;
     color: #E53E3E;
