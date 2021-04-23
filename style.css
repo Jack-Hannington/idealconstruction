@@ -392,6 +392,9 @@ textarea {
     background-color: #EFEFEF;
     border: 1px solid #ededed;
 }
+.contact-header {
+    margin-top:40px;
+}
 
 .contact-details {
     background-color: #f8fafb;
