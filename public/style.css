@@ -503,6 +503,8 @@ footer {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949312/Ideal_construction/striped_background_gfrl9d.jpg");
 }
 
+
+
 .navbar-collapse {
     padding: 10px 20px;
 }
@@ -514,7 +516,7 @@ footer {
 .nav-item,
 .nav-link {
     color: #3a3a3a;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .nav-link:hover {
@@ -523,6 +525,15 @@ footer {
 
 .navbar-toggler-icon {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949330/Ideal_construction/staggered_hamburger_dark_dvfqal.svg");
+}
+
+.navbar-toggler:focus {
+    outline:none;
+}
+
+.navbar-toggle-icon-close {
+    background-image:url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1619186638/Ideal_construction/bi_x-square-fill_wpulzl.svg");
+      background-repeat:no-repeat;
 }
 
 

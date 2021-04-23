@@ -45,3 +45,10 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+//navbar toggle 
+const menuToggler = document.querySelector('#toggle-icon'); 
+
+menuToggler.addEventListener('click', () => {
+    menuToggler.classList.toggle('navbar-toggle-icon-close');
+});
