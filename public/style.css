@@ -139,11 +139,56 @@ button:hover {
 
 /* Projects */
 
-.projects-header {
+@media (min-width:768px){
+  .projects-header {
     background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949398/Ideal_construction/LATEST_6_x28f1j.svg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
+}
+
+.testimonials-header {
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949335/Ideal_construction/REVIEWS_cl6dfq.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team-header {
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949349/Ideal_construction/PEOPLE_2_ontivx.svg");
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 40px;
+}
+.social-header {
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949333/Ideal_construction/SOCIAL_p3qevz.svg");
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.contact-header {
+    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949411/Ideal_construction/CONTACT_1_qdohz4.svg");
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+ .sm-only {
+     display: none;
+ }
+}
+
+.sm-only {
+    margin-bottom:0px;
 }
 
 
@@ -197,10 +242,8 @@ button:hover {
 }
 
 .project-image {
-    max-height: 250px;
-    width: 100%;
-    max-width: 300px;
-    max-width: 350px;
+    width:100%;
+ 
 }
 
 .show-on-hover {
@@ -226,17 +269,11 @@ button:hover {
 /* Testimonials */
 
 .testimonials-row {
-    margin: 40px 0px 20px 0px;
+    margin: 60px 0px 60px 0px;
 }
 
 .testimonials-header {
-    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949335/Ideal_construction/REVIEWS_cl6dfq.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: contain;
-    margin-top: 50px;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-left:0px;
 }
 
 .client-name {
@@ -246,7 +283,7 @@ button:hover {
 .carousel-item {
     max-width: 100%;
     /* padding: 20px; */
-    min-height: 350px;
+    /* min-height: 350px; */
 }
 
 .carousel-content {
@@ -267,13 +304,7 @@ button:hover {
 
 /* Teams */
 
-.team-header {
-    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949349/Ideal_construction/PEOPLE_2_ontivx.svg");
-    background-position: top-left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 40px;
-}
+
 
 
 /* teams horizontal scrolling */
@@ -315,36 +346,31 @@ button:hover {
 
 /* Social media */
 
+.social-section {
+    margin-bottom:0px;
+    margin-top:60px;
+}
+
 .social-media {
     padding-top: 20px;
 }
 
+
 .social-header {
-    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949333/Ideal_construction/SOCIAL_p3qevz.svg");
-    background-position: top-left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 50px;
-    padding-top: 40px;
+    margin-bottom:0;
 }
+
 
 .insta-card {
     flex: 0 0 auto;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
+    max-height: 600px;
 }
 
 
 /* Contact */
 
-.contact-header {
-    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1590949411/Ideal_construction/CONTACT_1_qdohz4.svg");
-    background-position: top-left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    padding-top: 20px;
-}
+
 
 
 /* form styles */
@@ -410,11 +436,11 @@ footer {
         padding: 10px;
     }
     .projects-row {
-        margin-top: 20px;
+        margin-top: 00px;
     }
     .project-details {
-        margin-top: 10px;
-        padding-top: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
     }
     .social-icons {
         display: none!important;
@@ -448,26 +474,15 @@ footer {
         float: right;
         padding-right: 20px;
     }
-    .projects-header {
+    .projects-header, .testimonials-header, .social-header, .team-header, .contact-header {
         margin-bottom: 20px;
         padding-top: 60px;
         height: 100px;
+        padding-left:5px;
     }
     .light {
         font-size: 60px;
         line-height: 60px;
-    }
-    .contact-header,
-    .testimonials-header,
-    .team-header,
-    .social-header {
-        height: 100px;
-    }
-    .contact-header h1,
-    .testimonials-header h1,
-    .team-header h1,
-    .social-header h1 {
-        padding-top: 20px;
     }
     .testimonials-header {
         margin-bottom: 30px;
@@ -477,11 +492,6 @@ footer {
     }
     .social-header {
         margin-top: 40px;
-    }
-    .contact-header,
-    .social-header,
-    .testimonials-header {
-        padding-top: 40px;
     }
 }
 
